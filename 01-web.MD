@@ -28,13 +28,13 @@ Remove the default content that web server is serving.
 rm -rf /usr/share/nginx/html/*
 ```
 
-Download the frontend content
+Download the frontend content.
 
 ```
 curl -o /tmp/web.zip https://roboshop-builds.s3.amazonaws.com/web.zip
 ```
 
-Extract the frontend content
+Extract the frontend content.
 
 ```
 cd /usr/share/nginx/html
